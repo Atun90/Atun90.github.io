@@ -1,7 +1,58 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
-</html>
+<html lan="en">
+ <head>
+   <title>Tiro parabólico</title>
+   <meta charset="UTF-8" >
+   <meta name="description" content="Lo que mostrará Google" >
+   <link rel="icon" href="TP.ico" >
+   <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+   </head>
+
+
+<h1 id="box1">Física</h1>
+<h2 id="box2">Tiro <span class="italica">parabólico</span></h2>
+<form>
+  <div>
+    Nombre: <input type="text" />
+  </div>
+  <div>
+    Cuenta: <input type="number" />
+  </div>
+  <div>
+    Grupo:
+    <select>
+      <option>1 A</option>
+      <option>1 B</option>
+      <option>1 C</option>
+    </select>
+  </div>
+  <div>
+    <input type="submit" value="save" />
+  </div>
+</form>
+
+<p><span id="negrita">Bienvenido</span> al tema de tiro parabólico correspondiente a la Unidad 1.</p>
+<p id="amarillo">Para acreditar este tema deberás realizar las distintas actividades que se presentan y juntar una cantidad de puntos total que sea igual o mayor a 60.</p>
+<p>Elige aquellas actividades que te parezcan más atractivas en cada sección, pero recuerda que debes acreditar por lo menos 10 puntos en cada una de ellas, es decir, que al sumar los puntos de las 4 secciones obtengas un mínimo de 40 puntos obligatorios.</p>
+<p>Recuerda que puedes enviar tus dudas al correo de la clase o en el foro.</p>
+<p>Recuerda que puedes consultar tu avance por sección y el avance total <a href="avance.html">haciendo click aquí.</a></p>
+
+<img src="TP.jpeg"/><br/>
+<p>El tiro parabólico es un movimiento que combina un avance horizontal y un avance vertical.</p>
+<p>Para conocer más acerca de este concepto elige una de las siguientes opciones:</p>
+
+<ul>
+  <li>Si quieres conocer sus antecedentes históricos, <a href="antecedentes.html">haz click aquí</a></li>
+  <li>Si quieres conocer sus ecuaciones, <a href="ecuaciones.html">haz clcik aquí</a></li>
+  <li>Si quieres conocer sus aplicaciones, <a href="aplicaciones.html">haz clcik aquí</a></li>
+  <li>Si quieres hacer ejercicios, <a href="ejercicios.html">haz clcik aquí</a></li>
+</ul>
+
+<ul>
+  <li class="vector">peso</li>
+  <li class="escalar">masa</li>
+  <li class="vector">velocidad</li>
+  <li class="escalar">rapidez</li>
+  <li class="vector">aceleracion</li>
+</ul>
